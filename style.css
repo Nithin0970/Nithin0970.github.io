@@ -1,0 +1,193 @@
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  
+
+.cards {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card p {
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+header {
+    background-color: #fff;
+    
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card:hover h2 {
+    color: #222;
+  }
+  
+  .card:hover p {
+    color: #444;
+  }
+  
+  .card .card-content {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .card .card-content {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .card {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Add rounded corners to the card */
+    padding: 20px;
+  }
+
+  .card {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .card p {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card .card-content {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .card .card-content p {
+    color: #666;
+    font-size: 16px;
+    margin: 0;
+  }
+  .card {
+    width: 250px; /* Reduce the width of the card */
+    height: 350px; /* Reduce the height of the card */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  body {
+    background-image: url(https://images.hdqwalls.com/wallpapers/abstract-green-gradient-bs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7; /* Set the opacity to 0.7 for a semi-transparent background */
+  }
+  
